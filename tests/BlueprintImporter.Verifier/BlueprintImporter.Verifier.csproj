@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\Core\BlueprintModels.cs" Link="Core\BlueprintModels.cs" />
+    <Compile Include="..\..\Core\BlueprintPlanner.cs" Link="Core\BlueprintPlanner.cs" />
+    <Compile Include="..\..\Core\BlueprintJsonParser.cs" Link="Core\BlueprintJsonParser.cs" />
+    <Compile Include="..\..\Core\GridRegionLayoutPlanner.cs" Link="Core\GridRegionLayoutPlanner.cs" />
+    <Compile Include="..\..\Core\BlueprintSource.cs" Link="Core\BlueprintSource.cs" />
+    <Compile Include="..\..\Core\WebsiteItemCatalog.cs" Link="Core\WebsiteItemCatalog.cs" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+</Project>

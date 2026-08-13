@@ -1,0 +1,12 @@
+<Project>
+  <PropertyGroup>
+    <LocalMonoGamePath>C:\Path\To\Schedule I Mono</LocalMonoGamePath>
+    <LocalIl2CppGamePath>C:\Path\To\Schedule I IL2CPP</LocalIl2CppGamePath>
+    <MonoAssembliesPath>$(LocalMonoGamePath)\Schedule I_Data\Managed</MonoAssembliesPath>
+    <MonoMelonLoaderPath>$(LocalMonoGamePath)\MelonLoader\net35</MonoMelonLoaderPath>
+    <Il2CppAssembliesPath>$(LocalIl2CppGamePath)\MelonLoader\Il2CppAssemblies</Il2CppAssembliesPath>
+    <Il2CppMelonLoaderPath>$(LocalIl2CppGamePath)\MelonLoader\net6</Il2CppMelonLoaderPath>
+    <S1ApiMonoPath>C:\Path\To\S1API.Mono.MelonLoader.dll</S1ApiMonoPath>
+    <S1ApiIl2CppPath>C:\Path\To\S1API.Il2Cpp.MelonLoader.dll</S1ApiIl2CppPath>
+  </PropertyGroup>
+</Project>

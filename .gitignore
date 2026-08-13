@@ -1,0 +1,19 @@
+# Local build configuration
+local.build.props
+
+# Build and test output
+**/bin/
+**/obj/
+artifacts/
+
+# Research inputs kept local
+Site-Files/
+
+# IDE and OS files
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+.DS_Store
+Thumbs.db
